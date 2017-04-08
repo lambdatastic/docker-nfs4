@@ -1,6 +1,6 @@
-FROM alpine
+FROM hypriot/rpi-alpine-scratch
 
-MAINTAINER Joe Biellik <contact@jcbiellik.com>
+MAINTAINER Cassandra Cruz <celkamada@gmail.com>
 
 RUN set -xe \
 	&& apk add --update --no-progress nfs-utils \
