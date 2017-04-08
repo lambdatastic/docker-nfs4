@@ -1,15 +1,15 @@
 # NFS4
-[![Docker Pulls](https://img.shields.io/docker/pulls/joebiellik/nfs4.svg)](https://hub.docker.com/r/joebiellik/nfs4/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/celkamada/nfs4-armhf.svg)](https://hub.docker.com/r/celkamada/nfs4-armhf/)
 
-[NFS v4 server](http://nfs.sourceforge.net/) server running on [Alpine Linux](https://hub.docker.com/_/alpine/).
+[NFS v4 server](http://nfs.sourceforge.net/) server running on the armhf version of [Alpine Linux](https://hub.docker.com/_/alpine/).
 
 ## Configuration
-See [example directory](https://github.com/jcbiellikltd/docker-nfs4/tree/master/example) for sample config file.
+See [example directory](https://github.com/lambdatastic/docker-nfs4/tree/master/example) for sample config file.
 
 ## Quickstart
 ```
 nfs4:
-  image: joebiellik/nfs4
+  image: celkamada/nfs4-armhf
 
   # Required to load kernel NFS module
   privileged: true
